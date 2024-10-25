@@ -16,7 +16,7 @@ export default function Profile() {
         borderRadius:15,
         paddingHorizontal:30
         
-    }}onPress={()=>router.navigate('/discover')}>
+    }}onPress={()=>router.navigate('auth/sign-in')}>
         <Text style={{
           color:"white",
           fontFamily:"outfit-bold"

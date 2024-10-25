@@ -7,7 +7,7 @@ export default function Login() {
     const router=useRouter();
   return (
     <View>
-        <Image source={require('C:/Users/19180/Project1/assets/images/loginpage.jpg')}
+        <Image source={require('C:/Users/19180/myReactProject/assets/images/loginpage.jpg')}
         style={
             {
                 width:'%100',

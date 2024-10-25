@@ -3,7 +3,7 @@ import React, { useEffect , useState} from 'react'
 import { useNavigation, useRouter } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../../configs/firebaseconfig';
+import { auth } from '../../../configs/firebaseconfigs';
 
 
 export default function SignIn() {
