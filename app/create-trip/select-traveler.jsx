@@ -29,7 +29,7 @@ export default function SelectTraveler() {
     },[selectedTraveler]);
     useEffect(()=>{
         console.log(tripData);
-    },tripData)
+    },[tripData])
   return (
     <View
     style={{

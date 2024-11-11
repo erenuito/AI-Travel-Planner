@@ -8,8 +8,9 @@ export default function OptionCard({option,selectedTraveler}) {
         display:'flex',
         flexDirection:'row',
         justifyContent:'space-between',
-        backgroundColor:'lightgray',
+        backgroundColor:'#f1eff0',
         borderRadius:15,
+        marginTop:5
         
 
     },selectedTraveler?.id==option.id&&{borderWidth:3}]}>
