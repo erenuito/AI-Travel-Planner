@@ -1,50 +1,93 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🧭 AI Travel Planner
 
-## Get started
+AI Travel Planner, seyahat planlamasını kolaylaştırmak için yapay zekâ destekli öneriler sunan bir mobil uygulamadır. Kullanıcıların seyahat tercihlerini analiz ederek kişiselleştirilmiş seyahat planları oluşturur.
 
-1. Install dependencies
+## 🚀 Özellikler
 
-   ```bash
-   npm install
-   ```
+- **Kişiselleştirilmiş Seyahat Planları**: Kullanıcının tercihleri doğrultusunda özelleştirilmiş seyahat rotaları ve aktiviteler önerir.
+- **Yapay Zekâ Destekli Öneriler**: OpenAI gibi büyük dil modellerini kullanarak seyahat önerileri sunar.
+- **Kullanıcı Dostu Arayüz**: React Native ve Expo kullanılarak geliştirilen modern ve sezgisel bir kullanıcı arayüzü.
+- **Gerçek Zamanlı Veriler**: Firebase ile entegre edilerek gerçek zamanlı veri yönetimi sağlar.
 
-2. Start the app
+## 🛠️ Teknolojiler
 
-   ```bash
-    npx expo start
-   ```
+- **Frontend**: React Native, Expo
+- **Backend**: Firebase (Authentication, Firestore)
+- **Yapay Zekâ**: OpenAI API
+- **Harita ve Konum Hizmetleri**: Google Maps API
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Kurulum
 
 ```bash
-npm run reset-project
+# Depoyu klonlayın
+git clone https://github.com/erenuito/AI-Travel-Planner.git
+cd AI-Travel-Planner
+
+# Bağımlılıkları yükleyin
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🔧 Firebase Yapılandırması
 
-## Learn more
+1. [Firebase Console](https://console.firebase.google.com/) üzerinden bir proje oluşturun.
+2. Web uygulaması ekleyin ve yapılandırma bilgilerini alın.
+3. Proje dizininde `firebaseConfig.js` adında bir dosya oluşturun ve aşağıdaki yapıyı kullanarak bilgilerinizi ekleyin:
 
-To learn more about developing your project with Expo, look at the following resources:
+```javascript
+// firebaseConfig.js
+export const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### ▶️ Uygulamayı Başlatma
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+- QR kodu Expo Go uygulaması ile tarayarak test edebilirsiniz.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📁 Proje Yapısı
+
+```
+AI-Travel-Planner/
+├── app/            # Ekranlar ve uygulama yapısı
+├── assets/         # Görseller ve statik dosyalar
+├── components/     # Yeniden kullanılabilir bileşenler
+├── configs/        # Yapılandırma dosyaları
+├── constants/      # Sabit değerler
+├── context/        # Global durum yönetimi
+├── hooks/          # Özel React Hook'ları
+├── scripts/        # Yardımcı betikler
+└── App.js
+```
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınızı memnuniyetle karşılıyoruz! Katkıda bulunmak için:
+
+1. Bu depoyu forklayın.
+2. Yeni bir dal oluşturun:  
+   ```bash
+   git checkout -b feature/ozellik-adi
+   ```
+3. Değişikliklerinizi yapın ve commit edin:  
+   ```bash
+   git commit -m "Yeni özellik eklendi"
+   ```
+4. Dalınızı pushlayın:  
+   ```bash
+   git push origin feature/ozellik-adi
+   ```
+5. Pull Request gönderin 🎉
+
+## 📄 Lisans
+
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
