@@ -54,6 +54,19 @@ npx expo start
 
 - QR kodu Expo Go uygulaması ile tarayarak test edebilirsiniz.
 
+![WhatsApp Görsel 2025-04-25 saat 01 31 42_93f41b8e](https://github.com/user-attachments/assets/3f685d82-0f01-4aa6-a2e8-0fa57db8292c)
+
+
+![WhatsApp Görsel 2025-04-25 saat 01 31 42_0c30512c](https://github.com/user-attachments/assets/89a1cbe3-49ea-40f6-87d4-ba39dc0a45f7)
+
+
+![WhatsApp Görsel 2025-04-25 saat 01 31 43_4805c604](https://github.com/user-attachments/assets/b097b7aa-f0b3-4047-ad05-d58e44117db3)
+
+
+![WhatsApp Görsel 2025-04-25 saat 01 33 18_b0fe0bf9](https://github.com/user-attachments/assets/253cec3f-f9f9-4503-b907-610153aa4891)
+
+
+
 ## 📁 Proje Yapısı
 
 ```
