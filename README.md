@@ -1,3 +1,5 @@
+# 🧭 AI Travel Planner
+
 AI Travel Planner is a mobile app that provides AI-powered recommendations to make travel planning easier. It analyzes users’ travel preferences and creates personalized travel plans.
 
 ## 🚀 Features
@@ -59,7 +61,6 @@ npx expo start
 
 ## 📁 Project Structure
 
-''''
 AI-Travel Planner/
 ├── app/ # Screens and app structure
 ├── assets/ # images and static files
@@ -70,7 +71,6 @@ AI-Travel Planner/
 ├── hooks/ # Custom React Hooks
 ├── scripts/ # Helper scripts
 └── App.js
-''''
 
 ## 🤝 Contribute
 
