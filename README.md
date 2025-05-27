@@ -62,14 +62,14 @@ npx expo start
 ## 📁 Project Structure
 
 AI-Travel Planner/
-├── app/ # Screens and app structure
-├── assets/ # images and static files
-├── components/ # Reusable solutions
-├── configs/ # Configuration files
-├── constants/ # Constant values
-├── context/ # Global state management
-├── hooks/ # Custom React Hooks
-├── scripts/ # Helper scripts
+├── app/  Screens and app structure
+├── assets/  images and static files
+├── components/  Reusable solutions
+├── configs/  Configuration files
+├── constants/  Constant values
+├── context/  Global state management
+├── hooks/  Custom React Hooks
+├── scripts/  Helper scripts
 └── App.js
 
 ## 🤝 Contribute
