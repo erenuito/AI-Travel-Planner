@@ -59,19 +59,6 @@ npx expo start
 ##📷 Screenshots
 <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;"> <img src="https://github.com/user-attachments/assets/3f685d82-0f01-4aa6-a2e8-0fa57db8292c" alt="Screenshot 1" style="width: 200px; border-radius: 8px;" /> <img src="https://github.com/user-attachments/assets/89a1cbe3-49ea-40f6-87d4-ba39dc0a45f7" alt="Screenshot 2" style="width: 200px; border-radius: 8px;" /> <img src="https://github.com/user-attachments/assets/b097b7aa-f0b3-4047-ad05-d58e44117db3" alt="Screenshot 3" style="width: 200px; border-radius: 8px;" /> <img src="https://github.com/user-attachments/assets/253cec3f-f9f9-4503-b907-610153aa4891" alt="Screenshot 4" style="width: 200px; border-radius: 8px;" /> </div>
 
-## 📁 Project Structure
-
-AI-Travel Planner/
-├── app/  Screens and app structure
-├── assets/  images and static files
-├── components/  Reusable solutions
-├── configs/  Configuration files
-├── constants/  Constant values
-├── context/  Global state management
-├── hooks/  Custom React Hooks
-├── scripts/  Helper scripts
-└── App.js
-
 ## 🤝 Contribute
 
 Your contributions are welcome! To contribute:
